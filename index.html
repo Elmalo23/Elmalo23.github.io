@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>My Porfolio</title>
+    <style>
+        body { font-family: Arial,sans-serif;
+        color: #333;
+        background-color: #f5f5f5;
+}
+header { background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 { font-size: 36px;
+    margin: 0;
+
+}
+header p { font-size: 18px;
+    margin: 0;
+}
+nav ul { list-style-type: none;
+margin: 0;
+padding: 0;
+}
+nav li {  display: inline-block;
+margin-right: 20px; }
+nav a { color: #fff; text-decoration: none;}
+section { padding: 50px;}
+section h2 { font-size: 30px;
+margin-top: 0;}
+section ul { list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+section li { flex-basis: calc(50%-20px);
+margin-right: 40px;
+margin-bottom: 40px;
+background-color: #fff;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+padding: 20px;}
+
+section li img { max-width: 100%; }
+section li h3 { font-size: 24px; margin-bottom: 0; color: #333;}
+section li p { font-size: 16px;
+margin-bottom: 0; color: #333;}
+ 
+
+form { display: flex; flex-direction: column;} 
+
+form label {  font-size: 18px;
+margin-bottom: 10px;}
+
+form input, form textarea { font-size: 18px; padding: 10px; border: none; border-radius: 5px; margin-bottom: 20px;}
+
+form textarea { height: 200px;}
+form button { font-size: 18px;
+background-color: #333; 
+color: #fff;
+border: none;
+border-radius:  5px;
+padding: 10px;
+cursor: pointer;
+margin-top: 20px;}
+
+form button :hover { background-color: #666;
+}
+ 
+footer { background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center; }
+
+footer p { font-size: 18px;
+margin: 0; }
+footer a { color: #fff;
+text-decoration: none}
+
+@media screen and ( max-width: 600px) { nav li { display: block;
+margin-bottom: 10px;}
+
+section li { flex-basis: 100%;
+margin-right: 0;}
+
+
+}
+    </style>
+</head>
+<body>
+    <header>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">project</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<h1>Domingo Abeso</h1>
+<p>SOFTWARE ENGINEER</p>
+</section>
+<section id="home"> 
+    <h2> welcome to my Porfolio!</h2>
+    <p>I am a web developer with experience in HTML, CSS and JavaScript.<br>
+    i am passionate about creating responsive and use-friendly websites<br></p>
+
+<a href="#projects">View my work</a>
+</section>
+<section id="projects"> <h2>My projects</h2>
+    <ul>
+            <li>
+                <img src="882679.jpg" alt="Project1">
+                <h3>Projects 1</h3>
+                <p>MIRALAND is a webpage created by Abeso
+                  <br>in 4, 2023 for a simple purpose of learning web development<br>
+                  and getting some skills about how to create pages using HTML and CSS<br></p>
+            </li>
+             <li>
+                <img src="799716-cool-mac-os-wallpapers-2560x1440-for-4k.jpg" alt="Project2">
+                <h3>Project2</h3>
+                <p>MIRALAND is a webpage created by Abeso
+                    <br>in 4, 2023 for a simple purpose of learning web development<br>
+                    and getting some skills about how to create pages using HTML and CSS<br></p>
+            </li>
+        </ul>
+</section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>My name is Domingo Abeso and i am a web developer based in Buea. i recieved
+        my Bachelor's Degree in Computer Science from CHiTECHMA University and have been working
+        as a freelance web developer for past two years.
+        I am experienced in HTML, CSS, JavaScript and jQuery.
+    </p>
+    <p>In my free time, I enjoy exploring new web technologies and attending tech conferences.
+    I am always looking for new opportunities to learn and grow as a developer.</p>
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="massage">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p> You can also reach me at Leanzurich@gmail.com or on social media:</p>
+    <ul>
+        <li><a href="https://twitter.com/Leanzurich">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/Leanzurich">Linkedin</a></li>
+        <li><a href="https://github.com/Leanzurich">GitHub</a></li>
+
+</section>
+</body>
+</html>
